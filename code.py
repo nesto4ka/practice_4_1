@@ -10,7 +10,7 @@ y0 = SIZE / 2
 REVERSE = False
 
 root = Tk()
-canvas = Canvas(root, width=SIZE, height=SIZE, bg="white")
+canvas = Canvas(root, width=SIZE, height=SIZE, bg="black")
 canvas.pack()
 ball = canvas.create_oval(
     SIZE / 2 - R,
@@ -18,7 +18,7 @@ ball = canvas.create_oval(
     SIZE / 2 + R,
     SIZE / 2 + R,
     width = 0,
-    fill = '#FFCC66'
+    fill = '#CD5C5C'
     )
 root.update()
 
@@ -43,7 +43,7 @@ my_point = canvas.create_oval(
     x1 + DOT_SIZE,
     y1 + DOT_SIZE,
     width = 0,
-    fill = "red")
+    fill = "Aqua")
 
 def motion():
     global SPEED, my_point, x1, y1, t
